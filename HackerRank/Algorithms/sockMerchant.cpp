@@ -4,8 +4,8 @@ int sockMerchant(int n, vector<int> ar) {
     int pairs = 0;
     for(int color : ar)
     {
-        if(sockDrawer.test(color))  pairs++;
-        sockDrawer.flip(color);
+        if(sockDrawer.test(color%n))  pairs++;
+        sockDrawer.flip(color%n);
     }
     return pairs;
 /*
