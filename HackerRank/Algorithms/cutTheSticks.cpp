@@ -9,6 +9,6 @@ vector<int> cutTheSticks(vector<int> arr) {
         //trigger only if stick size isn't same as next one
         if(arr[i] != arr[i+1])
             //pushback numberOfSticks - numberOfSticksCut
-            sticksLeft.push_back(arr.size()-(1+&arr[i]-&arr[0]));
+            sticksLeft.push_back(arr.size()-(1+i));
     return sticksLeft;
 }
