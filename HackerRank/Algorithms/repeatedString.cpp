@@ -8,4 +8,3 @@ long (string s, long n) {
     while(locations[index])
     return count;
 }
-//incomplete
