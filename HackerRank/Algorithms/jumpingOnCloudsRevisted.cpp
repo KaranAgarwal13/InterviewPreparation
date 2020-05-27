@@ -1,4 +1,4 @@
-int jumpingOnClouds(vector<int> c, int k) {
+int jumpingOnCloudsRevisited(vector<int> c, int k) {
     int loc = 0, energy = 100;
     do{
         energy--;
